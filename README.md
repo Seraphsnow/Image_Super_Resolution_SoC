@@ -8,4 +8,4 @@ Mentors:
 \
 Param Shah\
 Shantanu Welling\
-Tanay Tayal\
+Tanay Tayal
