@@ -52,7 +52,6 @@ def quick_sort(list, l, r):
 
 def median(list, x):
     quick_sort(list, 0, x-1)
-    print(list)
     if x % 2 != 0:
         return list[int((x-1)/2)]
     else:
@@ -77,6 +76,8 @@ sd_of_x_nos = math.sqrt(var_of_x_nos)
 mode_of_x_nos = mode(list)
 print(sum_of_x_nos)
 print(mean_of_x_nos)
+quick_sort(list, 0, x-1)
+print(list)
 print(median_of_x_nos)
 print(var_of_x_nos)
 print(sd_of_x_nos)

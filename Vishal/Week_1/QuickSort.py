@@ -34,4 +34,7 @@ print(f"The array before sorting is : {x}\n")
 quicksort(x,0,n-1)
 
 print(f"The array after sorting is : {x}")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 379e55d2021f614b1a293bde2d9a6e86c368e8e9
