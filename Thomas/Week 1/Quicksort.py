@@ -10,7 +10,7 @@ def quicksort(arr):
     if(len(arr)==0 or len(arr)==1):
       return(arr)
     i = -1
-    for j in range(0,len(arr)):
+    for j in range(0,len(arr)-1):
       if(arr[j] < arr[-1]):
         i += 1
         arr[i], arr[j] = arr[j], arr[i]
