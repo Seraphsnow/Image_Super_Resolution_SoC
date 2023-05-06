@@ -20,7 +20,7 @@ plt.xlabel('x', color='#1C2833')
 plt.ylabel('y', color='#1C2833')
 plt.legend(loc='upper left')
 plt.grid()
-x = dataset[0]
-y = dataset[1]
+x =dataset[0]
+y =dataset[1]
 plt.scatter(x, y)
 plt.show()
