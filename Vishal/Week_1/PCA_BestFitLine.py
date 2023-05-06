@@ -25,7 +25,7 @@ def line(arr):
     new_arr=np.array([x,y])  #creating modified array of x and y
 
     cov_arr=np.cov(new_arr)
-    e_val,e_vector=np.linalg.eig(cov_arr)  #for finding the eigen values and eigen vectors of the covariance matrix
+    e_val,e_vector=np.linalg.eigh(cov_arr)  #for finding the eigen values and eigen vectors of the covariance matrix
     
     e_val_max=e_val[-1]
     e_vector_max=e_vector[:][-1]
